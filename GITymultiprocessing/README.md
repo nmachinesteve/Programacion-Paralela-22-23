@@ -4,7 +4,7 @@ https://github.com/nmachinesteve/GITymultiprocessing.git
 
 
 
-
+/n
 En esta tarea vamos a probar el multiprocessing de python. Se trata de teclear los programas y observar su resultado.
 
 - La ejecución de los programas se debe hacer en el terminal.
