@@ -16,5 +16,5 @@ Desarrolla en papel el cliente y los el monitor (o monitores) necesarios. Parte 
 
 <br>
 <br>
-En el archivo adjunto *puente.pdf* se ven las ideas del problema y se muestra una solución sencilla. <br>
-En el archivo *practica2.py* se puede ver el desarrollo implementado en Python. 
+En el archivo adjunto * puente.pdf * se ven las ideas del problema y se muestra una solución sencilla. <br>
+En el archivo * practica2.py * se puede ver el desarrollo implementado en Python. 
