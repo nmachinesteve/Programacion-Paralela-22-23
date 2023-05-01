@@ -6,8 +6,8 @@ El pueblo de Ambite tiene un puente que atraviesa el río Tajuña. Es un puente 
 
 
 Desarrolla en papel el cliente y los el monitor (o monitores) necesarios. Parte de una solución sencilla que cumpla la seguridad y a partir de ella intenta buscar soluciones a los problema de inanición.
-• Escribe el invariante del monitor.
-• Demuestra que el puente es seguro (no hay coches y peatones a la vez en el puente, no hay coches en sentidos opuestos)
-• Demuestra la ausencia de deadlocks
-• Demuestra la ausencia de inanición.
-• Implementa una solución en python con la biblioteca multiprocessing
+- Escribe el invariante del monitor.
+- Demuestra que el puente es seguro (no hay coches y peatones a la vez en el puente, no hay coches en sentidos opuestos)
+- Demuestra la ausencia de deadlocks
+- Demuestra la ausencia de inanición.
+- Implementa una solución en python con la biblioteca multiprocessing
