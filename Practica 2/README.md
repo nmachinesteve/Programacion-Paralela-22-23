@@ -10,11 +10,11 @@ Desarrolla en papel el cliente y los el monitor (o monitores) necesarios. Parte 
 - Demuestra que el puente es seguro (no hay coches y peatones a la vez en el puente, no hay coches en sentidos opuestos)
 - Demuestra la ausencia de deadlocks
 - Demuestra la ausencia de inanición.
-- Implementa una solución en python con la biblioteca multiprocessing
+- Implementa una solución en python con la biblioteca multiprocessing. <br>
 
 
 
 
 
-En el archivo adjunto "puente.pdf" se ven las ideas del problema y se muestra una solución sencilla. 
+En el archivo adjunto "puente.pdf" se ven las ideas del problema y se muestra una solución sencilla. <br>
 En el archivo "practica2.py" se puede ver el desarrollo implementado en Python. 
