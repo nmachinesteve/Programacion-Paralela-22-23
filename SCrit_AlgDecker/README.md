@@ -1,1 +1,3 @@
+Carpeta disponible en otro repositorio, del que se adjunta enlace a continuación: 
 
+https://github.com/nmachinesteve/SCritica_AlgDecker.git 
