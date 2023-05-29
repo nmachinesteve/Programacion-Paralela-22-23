@@ -7,4 +7,9 @@ El dataset sobre el que trabajaremos será el que proporciona el Ayuntamiento de
 
 
 A continuación, veremos por ejemplo cuales son los grupos (según el rango de edad) que más utilizan el servicio de Bicimad, cual es la media de tiempo de uso en total y según cada grupo, cual ha sido la estación más concurrida etc.
-Nuestro trabajo se dividirá en dos archivos distintos: EstudioGeneral.py y EstudioGrupoEdad.py. Los dos archivos tienen una cierta similitud a excepción de algunas funciones. El primero consistirá en un análisis centrado en función de las estaciones y meses del año y el segundo en función de los resultados anuales.
+Nuestro trabajo se dividirá en dos archivos distintos: 
+- EstudioGeneral.py  
+- EstudioGrupoEdad.py. 
+
+
+Los dos archivos tienen una cierta similitud a excepción de algunas funciones. El primero consistirá en un análisis centrado en función de las estaciones y meses del año y el segundo en función de los resultados anuales.
