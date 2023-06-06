@@ -8,8 +8,7 @@ import sys
 
 NUMBERS = 'numbers'
 CLIENTS = 'clients'
-TIMER_STOP = f'{CLIENTS}/timerstop' 
-HUMIDITY = 'humidity'
+STOP = f'{CLIENTS}/timerstop' 
 
 def is_prime(n): 
     i= 2
@@ -24,7 +23,7 @@ def timer(time, data):
     mqttc.publish(TIMER_STOP, msg) 
     sleep(time)
     msg = f'timer working. timeout: {time}' 
-    mqttc.publish(TIMER_STOP, msg)
+    mqttc.publish(STOP, msg)
     print('timer end working') 
     mqttc.disconnect()
 
