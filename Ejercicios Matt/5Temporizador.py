@@ -19,7 +19,7 @@ def main(broker):
     mqttc.on_log = on_log 
     mqttc.connect(broker)
 
-    res_topics = ['clients/a', 'clients/b']
+    res_topics = ['clients/uno', 'clients/dos']
     for t in res_topics:
         mqttc.subscribe(t)
     mqttc.loop_start()
