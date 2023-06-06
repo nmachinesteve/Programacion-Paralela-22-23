@@ -8,7 +8,7 @@ import sys
 
 NUMBERS = 'numbers'
 CLIENTS = 'clients'
-STOP = f'{CLIENTS}/timerstop' 
+STOP = f'{CLIENTS}/stop' 
 
 def is_prime(n): 
     i= 2
