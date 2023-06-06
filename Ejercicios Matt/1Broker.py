@@ -16,7 +16,7 @@ def main(broker, topic):
 
 if __name__ == "__main__":
     if len(sys.argv)<3:
-        print(f"Usage: {sys.argv[0]} broker topic")
+        print(f"Usage: {sys.argv[0]} broker")
         sys.exit(1)
     broker = sys.argv[1]
     topic = sys.argv[2]
