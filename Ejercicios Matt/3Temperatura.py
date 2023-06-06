@@ -28,7 +28,6 @@ def main(broker):
     mqttc.loop_start()
     
     while True:
-        sleep(8)
         for key,temp in data['temp'].items():
             mean = sum(map(lambda x: int(x), temp))/len(temp)
             print(f'mean {key}: {mean}')
