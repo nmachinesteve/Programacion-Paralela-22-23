@@ -7,7 +7,7 @@ HUMIDITY = 'humidity'
 def on_message(mqttc, data, msg):
     print (f'message:{msg.topic}:{msg.payload}:{data}') 
     if data['status'] == 0:
-        temp = int(msg.payload) # we are only susbribed in temperature 
+        temp = int(msg.payload) 
         if temp>data['temp_threshold']:
             print(f'Temperature {temp} exceedeed, trying humidity') 
             mqttc.subscribe(HUMIDITY)
@@ -18,7 +18,7 @@ def on_message(mqttc, data, msg):
             humidity = int(msg.payload)
             if humidity>data['humidity_threshold']:
                 print(f'Humidity {humidity} exceeded') 
-                mqttc.unsubscribe(HUMIDITY) # Esto debe ser lo Ãoltimo 
+                mqttc.unsubscribe(HUMIDITY)  
                 data['status'] = 0
         elif TEMP in msg.topic:
             temp = int(msg.payload)
