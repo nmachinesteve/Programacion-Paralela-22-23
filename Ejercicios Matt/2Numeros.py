@@ -12,7 +12,8 @@ STOP = f'{CLIENTS}/stop'
 
 def is_prime(n): 
     i= 2
-    while i*i < n and n % i != 0: i += 1
+    while (i*i < n) and (n % i != 0): 
+        i = i + 1
     return i*i > n
 
 def timer(time, data): 
@@ -20,11 +21,11 @@ def timer(time, data):
     mqttc.connect(data['broker'])
     msg = f'timer working. timeout: {time}'
     print(msg) 
-    mqttc.publish(TIMER_STOP, msg) 
+    mqttc.publish(STOP, msg) 
     sleep(time)
     msg = f'timer working. timeout: {time}' 
     mqttc.publish(STOP, msg)
-    print('timer end working') 
+    print('timer ended') 
     mqttc.disconnect()
 
 def on_message(mqttc, data, msg):
